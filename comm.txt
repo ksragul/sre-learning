@@ -1,0 +1,21 @@
+SRE (Site Reliability Engineering) observability refers to the practice of ensuring the reliability, performance, and health of complex systems by collecting, analyzing, and acting on telemetry data. Observability in SRE is built on three core pillars:
+
+1. **Metrics** – Quantitative data points that help measure system performance (e.g., latency, error rates, request counts, CPU usage).
+2. **Logs** – Detailed event records that help debug and trace issues.
+3. **Traces** – Distributed traces that track requests as they move through microservices.
+
+### Key Components of SRE Observability:
+- **Monitoring** – Setting up alerts for known failure modes.
+- **Logging & Log Analysis** – Storing and analyzing logs to detect patterns.
+- **Distributed Tracing** – Understanding how requests travel through services.
+- **Service Level Objectives (SLOs)** – Defining reliability targets.
+- **Error Budgets** – Balancing feature development and reliability.
+- **AI/ML for Anomaly Detection** – Automating issue detection.
+
+### Popular Tools:
+- **Metrics & Monitoring**: Prometheus, Grafana, Datadog, New Relic
+- **Logging**: ELK Stack (Elasticsearch, Logstash, Kibana), Splunk
+- **Tracing**: OpenTelemetry, Jaeger, Zipkin
+- **Incident Management**: PagerDuty, Opsgenie
+
+Do you have a specific observability challenge or tool in mind?
